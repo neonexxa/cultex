@@ -20,7 +20,7 @@
 <br>
     <div class="container">
         <div class="row">
-            <div class="col"><button type="button" class="btn #ff8f00 amber darken-3 btn-lg btn-block">Help</button></div>
+            <div class="col"><button type="button" class="btn #ff8f00 amber darken-3 btn-lg btn-block" data-toggle="modal" data-target="#help">Help</button></div>
             <div class="col"></div>
             <div class="col"></div>
             <div class="col"><button type="button" class="btn #8e24aa purple darken-1 btn-lg btn-block" data-toggle="modal" data-target="#login">Login</button></div>
@@ -31,7 +31,7 @@
         <div class="flex-center flex-column">
             <h1 class="animated fadeIn mb-4">Select Your Community</h1>
 
-            <button type="button" class="btn #1e88e5 blue darken-1 btn-lg" style="border-radius: 25px">Click Here</button>
+            <button type="button" class="btn #1e88e5 blue darken-1 btn-lg" style="border-radius: 25px"  data-toggle="modal" data-target="#flagform">Click Here</button>
         </div>
     </div>
     <div class="container">
@@ -87,6 +87,81 @@
     </div>
 </div>
 <!-- Modal -->
+
+<!-- Modal -->
+<!-- Full Height Modal Right -->
+<div class="modal fade left" id="help" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-full-height modal-left" role="document">
+        <!--Content-->
+        <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header">
+                <h4 class="modal-title w-100" id="myModalLabel">HELP</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+                
+            </div>
+            <!--Footer-->
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div> -->
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+<!-- Modal -->
+
+<!-- Central Modal Medium Success -->
+<div class="modal fade" id="flagform" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-notify modal-success" role="document">
+        <!--Content-->
+        <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header">
+                <p class="heading lead">Select my language</p>
+                
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="white-text">&times;</span>
+                </button>
+            </div>
+
+            <!--Body-->
+            <div class="modal-body">
+                <div class="text-center">
+                    <!-- <i class="fa fa-check fa-4x mb-3 animated rotateIn"></i>
+                    <p>Flag here</p> -->
+                    <div class="bfh-selectbox bfh-countries" data-country="US" data-flags="true">
+                      <input type="hidden" value="">
+                      <a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#">
+                        <span class="bfh-selectbox-option input-medium" data-option=""></span>
+                        <b class="caret"></b>
+                      </a>
+                      <div class="bfh-selectbox-options">
+                        <input type="text" class="bfh-selectbox-filter">
+                        <div role="listbox">
+                        <ul role="option">
+                        </ul>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Footer-->
+            <div class="modal-footer justify-content-center">
+                <!-- <a type="button" class="btn btn-primary-modal">Get it now <i class="fa fa-diamond ml-1"></i></a> -->
+                <a type="button" class="btn btn-outline-secondary-modal waves-effect">Submit</a>
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+<!-- Central Modal Medium Success-->
 
     <!-- SCRIPTS -->
     <!-- JQuery -->
