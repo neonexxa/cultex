@@ -1,20 +1,20 @@
-Basic Webrtc stream and realtime chat 
+# Basic Webrtc stream and realtime chat 
 
 App title : Tadhacks'17 KL - CULTEX (Cultural Exchange)
 Version: 1.0
 
-Requirement:
+## Requirement:
 - Socket.io (for chat)
 - Vidyo.io (for WebRTC video stream)
 
-Dependencies and packages: 
+## Dependencies and packages: 
 - Nodejs
 - Expressjs
 - jQuery
 - Browser compatibility WebRTC
 - Material Design Bootstrap
 
-Getting started:
+## Getting started:
 ### Download the ZIP 📦
 
 ```
@@ -33,4 +33,5 @@ Double-click the ```cultex-1.0/index.html```
 
 #### For the chat, you need to open another browser
 
-Contributors: 
+## Contributors: 
+later add this part xD
