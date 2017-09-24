@@ -1,0 +1,41 @@
+/* YOUR CUSTOM STYLES */
+
+.view {
+    background: url("/img/rails_girls_london_dec_2015_img.jpg")no-repeat center center;
+    background-size: cover;
+}
+    
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+
+/* Import google font here */
+@import url('https://fonts.googleapis.com/css?family=Arvo|Indie+Flower|Open+Sans:800');
+/*
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+}*/
+.pentagon {
+    position: relative;
+    width: 54px;
+    border-width: 50px 18px 0;
+    border-style: solid;
+    border-color: red transparent;
+}
+.pentagon:before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -85px;
+    left: -18px;
+    border-width: 0 45px 35px;
+    border-style: solid;
+    border-color: transparent transparent red;
+}

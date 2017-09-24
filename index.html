@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<br>
+    <div class="container">
+        <div class="row">
+            <div class="col"><button type="button" class="btn #ff8f00 amber darken-3 btn-lg btn-block">Help</button></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"><button type="button" class="btn #8e24aa purple darken-1 btn-lg btn-block" data-toggle="modal" data-target="#login">Login</button></div>
+        </div>
+    </div>
+    <!-- Start your project here-->
+    <div style="height: 70vh">
+        <div class="flex-center flex-column">
+            <h1 class="animated fadeIn mb-4">Select Your Community</h1>
+
+            <button type="button" class="btn #1e88e5 blue darken-1 btn-lg" style="border-radius: 25px">Click Here</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col"><button type="button" class="btn btn-outline-default waves-effect btn-block">Join Group</button></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"><button type="button" class="btn btn-outline-warning waves-effect btn-block">Annonymous</button></div>
+        </div>
+    </div>
+    <!-- /Start your project here-->
+
+<!-- Modal -->
+<!-- Full Height Modal Right -->
+<div class="modal fade right" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-full-height modal-right" role="document">
+        <!--Content-->
+        <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header">
+                <h4 class="modal-title w-100" id="myModalLabel">Login/Register</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+                <p class="h5 text-center mb-4">Sign in</p>
+                
+                <div class="md-form">
+                    <i class="fa fa-envelope prefix grey-text"></i>
+                    <input type="text" id="defaultForm-email" class="form-control">
+                    <label for="defaultForm-email">Your email</label>
+                </div>
+
+                <div class="md-form">
+                    <i class="fa fa-lock prefix grey-text"></i>
+                    <input type="password" id="defaultForm-pass" class="form-control">
+                    <label for="defaultForm-pass">Your password</label>
+                </div>
+
+                <div class="text-center">
+                    <button class="btn btn-default">Login</button>
+                </div>
+            </div>
+            <!--Footer-->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+<!-- Modal -->
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+
+</html>
